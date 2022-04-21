@@ -1,0 +1,42 @@
+/* Universal Styles */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: navy;
+}
+
+/* Index Page Styles */
+.index_h1,
+.index_h2,
+.index_h3,
+.index_h4,
+ul {
+    text-align: center;
+}
+
+.index_h1 {
+    color: white;
+}
+
+.index_h2,
+.index_h4 {
+    color: green;
+}
+
+section > img {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
+
+.index_h3 {
+    color: yellow;
+    padding-left: 5px;
+}
+
+li {
+    color: white;
+}
