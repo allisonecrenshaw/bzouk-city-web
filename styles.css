@@ -1,0 +1,18 @@
+/* Universal Styles */
+* {
+    font-family: sans-serif;
+    color: white
+}
+
+body {
+    background-color: black;
+}
+
+/* Home Page Styles */
+.index_h1,
+.index_h2,
+.index_h3,
+.index_h4,
+p {
+    text-align: center;
+}
