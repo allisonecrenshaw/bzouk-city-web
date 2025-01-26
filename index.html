@@ -20,6 +20,16 @@
     <body></body>
 </html>
 
+<!-- Nav Bar -->
+<div id="navbar"></div>
+<script>
+  fetch('components/navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+</script>
+
 <!-- Index page for new vanilla html/css version of Zouk City website -->
 <br />
 <h1 class="index_h1">Welcome to BZouk City!</h1>
