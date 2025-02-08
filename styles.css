@@ -13,10 +13,14 @@ body {
 /* Navbar */
 #navbar-list {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 .navbar-link {
-    text-decoration:none
+    text-decoration: none;
+    margin-right: 20px;
 }
 
 /* Home Page Styles */
